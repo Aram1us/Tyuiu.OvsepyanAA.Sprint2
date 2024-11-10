@@ -11,40 +11,40 @@ namespace Tyuiu.OvsepyanAA.Sprint2.Task5.V7.Lib
             switch (n % 12 + 1)
             {
                 case 1:
-                    res = "Январь";
+                    res = "январь";
                     break;
                 case 2:
-                    res = "Февраль";
+                    res = "февраль";
                     break;
                 case 3:
-                    res = "Март";
+                    res = "март";
                     break;
                 case 4:
-                    res = "Апрель";
+                    res = "апрель";
                     break;
                 case 5:
-                    res = "Май";
+                    res = "май";
                     break;
                 case 6:
-                    res = "Июнь";
+                    res = "июнь";
                     break;
                 case 7:
-                    res = "Июль";
+                    res = "июль";
                     break;
                 case 8:
-                    res = "Август";
+                    res = "август";
                     break;
                 case 9:
-                    res = "Сентябрь";
+                    res = "сентябрь";
                     break;
                 case 10:
-                    res = "Октябрь";
+                    res = "октябрь";
                     break;
                 case 11:
-                    res = "Ноябрь";
+                    res = "ноябрь";
                     break;
                 case 12:
-                    res = "Декабрь";
+                    res = "декабрь";
                     break;
                 default:
                     throw new ArgumentException($"Проверьте число месяцев ({n})");
